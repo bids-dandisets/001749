@@ -31,7 +31,7 @@ citation: Keyes, Laurel; Padilla-Coreano, Nancy; Batra, Kanha; Patarino, Makenzi
   draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001749/draft
 contributor:
 - affiliation: []
-  email: laurelrr@gmail.com
+  email: lkeyes@salk.edu
   includeInCitation: true
   name: Keyes, Laurel
   roleName:
@@ -180,13 +180,71 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
-- identifier: 0000-0002-2435-0182
+- email: tye@salk.edu
+  identifier: 0000-0002-2435-0182
   includeInCitation: true
   name: Tye, Kay M.
   roleName:
   - dcite:Author
   - dcite:ContactPerson
   schemaKey: Person
+- identifier: https://ror.org/03xez1567
+  includeInCitation: false
+  name: Howard Hughes Medical Institute
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/03xez1567
+  includeInCitation: false
+  name: Salk Institute for Biological Studies
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/05nzwyq50
+  includeInCitation: false
+  name: JPB Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- includeInCitation: false
+  name: Dolby Family Fund
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/01cmst727
+  includeInCitation: false
+  name: Simons Center for the Social Brain
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/02fvtx219
+  includeInCitation: false
+  name: Ford Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/054n84d53
+  includeInCitation: false
+  name: L’Oreal For Women In Science
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/04xeg9z08
+  includeInCitation: false
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/01n14yn69
+  includeInCitation: false
+  name: Shanghai Qi Zhi Institute
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- name: Meta Technology Group
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2026-02-12T21:26:41.280702+00:00'
 description: 'This dataset contains in vivo electrophysiological recordings and simultaneous
   behavioral data from male mice in NWB (Neurodata Without Borders) format.  See the
@@ -197,7 +255,12 @@ description: 'This dataset contains in vivo electrophysiological recordings and 
   mPFC projections to BLA, mPFC projections to LH. Metadata includes approximate age,
   sex, species, strain, social rankings of each animal (assessed with tube test),
   and competitor during reward competition task.'
-ethicsApproval: []
+ethicsApproval:
+- contactPoint:
+    email: chrlee@salk.edu
+    schemaKey: ContactPoint
+  identifier: 18-00060
+  schemaKey: EthicsApproval
 id: DANDI:001749/draft
 identifier: DANDI:001749
 keywords:
@@ -214,6 +277,8 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001749/versions/draft/assets/
 name: Data supporting "Cortical ensembles orchestrate social competition through hypothalamic
   outputs"
+protocol:
+- https://doi.org/10.1038/s41586-022-04507-5
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
