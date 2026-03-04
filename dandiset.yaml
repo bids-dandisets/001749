@@ -18,9 +18,14 @@ acknowledgement: We thank C. Wildes, R. Revilla Orellano, S. Luo and C. Chang fo
   SJTU, the Shanghai Qi Zhi Institute, Shanghai Municipal Science and Technology Major
   Project (2021SHZDZX0102) and the Meta Technology Group.
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard: []
+  measurementTechnique: []
+  numberOfBytes: 770755638
+  numberOfFiles: 1
   schemaKey: AssetsSummary
+  species: []
+  variableMeasured: []
 citation: Keyes, Laurel; Padilla-Coreano, Nancy; Batra, Kanha; Patarino, Makenzie;
   Chen, Zexin; Rock, Rachel; Zhang, Ruihan; Hausmann, Sebastien B.; Weddington, Javier
   C.; Patel, Reesha; Zhang, Yu E.; Fang, Hao-Shu; Mishra, Srishti; LeDuke, Deryn O.;
