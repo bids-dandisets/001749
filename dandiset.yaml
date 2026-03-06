@@ -18,14 +18,42 @@ acknowledgement: We thank C. Wildes, R. Revilla Orellano, S. Luo and C. Chang fo
   SJTU, the Shanghai Qi Zhi Institute, Shanghai Municipal Science and Technology Major
   Project (2021SHZDZX0102) and the Meta Technology Group.
 assetsSummary:
-  approach: []
-  dataStandard: []
-  measurementTechnique: []
-  numberOfBytes: 770755638
-  numberOfFiles: 1
+  approach:
+  - name: behavioral approach
+    schemaKey: ApproachType
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 4796925342
+  numberOfFiles: 2
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
-  species: []
-  variableMeasured: []
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - BehavioralTimeSeries
+  - Position
+  - SpatialSeries
+  - ElectricalSeries
+  - ProcessingModule
+  - Units
+  - ElectrodeGroup
 citation: Keyes, Laurel; Padilla-Coreano, Nancy; Batra, Kanha; Patarino, Makenzie;
   Chen, Zexin; Rock, Rachel; Zhang, Ruihan; Hausmann, Sebastien B.; Weddington, Javier
   C.; Patel, Reesha; Zhang, Yu E.; Fang, Hao-Shu; Mishra, Srishti; LeDuke, Deryn O.;
@@ -252,14 +280,27 @@ contributor:
   schemaKey: Organization
 dateCreated: '2026-02-12T21:26:41.280702+00:00'
 description: 'This dataset contains in vivo electrophysiological recordings and simultaneous
-  behavioral data from male mice in NWB (Neurodata Without Borders) format.  See the
-  publication for protocol details: Padilla-Coreano, N., Batra, K., Patarino, M. et
-  al. Cortical ensembles orchestrate social competition  through hypothalamic outputs.
-  Nature 603, 667–671 (2022). https://doi.org/10.1038/s41586-022-04507-5.  Neural
-  recordings were made in one of three brain regions: medial prefrontal cortex (mPFC),
-  mPFC projections to BLA, mPFC projections to LH. Metadata includes approximate age,
-  sex, species, strain, social rankings of each animal (assessed with tube test),
-  and competitor during reward competition task.'
+  behavioral data from male mice in NWB (Neurodata Without Borders) format.  Recordings
+  were obtained during a reward competition task.  See the publication for protocol
+  details: Padilla-Coreano, N., Batra, K., Patarino, M. et al. Cortical ensembles
+  orchestrate social competition through hypothalamic outputs. Nature 603, 667–671
+  (2022). https://doi.org/10.1038/s41586-022-04507-5.   Neural recordings were taken
+  as follows: medial prefrontal cortex (mPFC), mPFC projections to BLA, mPFC projections
+  to LH. The mPFC recordings are contain ‘ephys’ in filename; the mPFC to BLA contain
+  “BLA” in file name, and mPFC to LH contain “chrimson” in the filename. Animals followed
+  a consistent dye pattern across cages of 4 mice to identify them in behavioral videos.  Animal
+  1 was dyed on left side of body. Animal 2 was dyed on right side of body.  Animal
+  3 was dyed with three horizontal stripes along body.  Animal 4 was dyed around the
+  neck only.  Note that animal id is not consistent with animal social rank; please
+  see subject description for details. Animal tracking was performed with AlphaTracker
+  and required manual correction of animal identities.  Only the raw, uncorrected
+  tracking is provided here.  Raw behavioral videos are also included.  Animal behavioral
+  data was manually scored and runs from -2 s before tone onset to +12 seconds after
+  tone onset.  Metadata includes approximate age, sex, species, strain, social rankings
+  of each animal (assessed with tube test), and competitor during reward competition
+  task.  Not every subject in the dataset has their competitor’s session included;
+  those that do may be found under the “pair_in_dataset” under the notes section of
+  the metadata.'
 ethicsApproval:
 - contactPoint:
     email: chrlee@salk.edu
