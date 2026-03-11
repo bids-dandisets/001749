@@ -60,8 +60,8 @@ citation: Keyes, Laurel; Padilla-Coreano, Nancy; Batra, Kanha; Patarino, Makenzi
   Revanna, Jasmin; Li, Hao; Borio, Matilde; Pamintuan, Rachelle; Bal, Aneesh; Libster,
   Avraham; Wichmann, Romy; Mills, Fergil; Taschbach, Felix H.; Matthews, Gillian A;
   Curley, James P.; Fiete, Ila R.; Lu, Cewu; Tye, Kay M. (2026) Data supporting "Cortical
-  ensembles orchestrate social competition through hypothalamic outputs" (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001749/draft
+  ensembles orchestrate social competition through hypothalamic outputs" (Padilla-Correano,
+  et al., Nature 2022) (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001749/draft
 contributor:
 - affiliation: []
   email: lkeyes@salk.edu
@@ -328,7 +328,7 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001749/versions/draft/assets/
 name: Data supporting "Cortical ensembles orchestrate social competition through hypothalamic
-  outputs"
+  outputs" (Padilla-Correano, et al., Nature 2022)
 protocol:
 - https://doi.org/10.1038/s41586-022-04507-5
 relatedResource:
