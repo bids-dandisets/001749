@@ -61,7 +61,7 @@ citation: Keyes, Laurel; Padilla-Coreano, Nancy; Batra, Kanha; Patarino, Makenzi
   Avraham; Wichmann, Romy; Mills, Fergil; Taschbach, Felix H.; Matthews, Gillian A;
   Curley, James P.; Fiete, Ila R.; Lu, Cewu; Tye, Kay M. (2026) Data supporting "Cortical
   ensembles orchestrate social competition through hypothalamic outputs" (Padilla-Correano,
-  et al., Nature 2022) (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001749/draft
+  et al., Nature 2022) (Version 0.260311.1727) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001749/0.260311.1727
 contributor:
 - affiliation: []
   email: lkeyes@salk.edu
@@ -279,6 +279,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2026-02-12T21:26:41.280702+00:00'
+datePublished: '2026-03-11T17:27:54.588796+00:00'
 description: 'This dataset contains in vivo electrophysiological recordings and simultaneous
   behavioral data from male mice in NWB (Neurodata Without Borders) format.   Recordings
   were obtained during a reward competition task.  See the publication for protocol
@@ -307,13 +308,14 @@ description: 'This dataset contains in vivo electrophysiological recordings and 
   with tube test), and port entries during reward competition task.  Not every subject
   in the dataset has  their competitor’s session included; those that do are noted
   in the subject description.'
+doi: 10.48324/dandi.001749/0.260311.1727
 ethicsApproval:
 - contactPoint:
     email: chrlee@salk.edu
     schemaKey: ContactPoint
   identifier: 18-00060
   schemaKey: EthicsApproval
-id: DANDI:001749/draft
+id: DANDI:001749/0.260311.1727
 identifier: DANDI:001749
 keywords:
 - social dominance
@@ -326,11 +328,23 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001749/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001749/0.260311.1727/assets.yaml
 name: Data supporting "Cortical ensembles orchestrate social competition through hypothalamic
   outputs" (Padilla-Correano, et al., Nature 2022)
 protocol:
 - https://doi.org/10.1038/s41586-022-04507-5
+publishedBy:
+  endDate: '2026-03-11T17:27:54.588796+00:00'
+  id: urn:uuid:1ba89f7f-d279-431b-9b89-1792e66b1656
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-03-11T17:27:54.588796+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:493d4685-679d-40f7-9a73-2d0b99078a10
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: Cortical ensembles orchestrate social competition through hypothalamic outputs
   relation: dcite:IsPublishedIn
@@ -340,6 +354,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
-url: https://dandiarchive.org/dandiset/001749/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001749/0.260311.1727
+version: 0.260311.1727
 wasGeneratedBy: []
