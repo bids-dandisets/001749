@@ -1,0 +1,46 @@
+{
+    "Name": "Data supporting \"Cortical ensembles orchestrate social competition through hypothalamic outputs\" (Padilla-Correano, et al., Nature 2022)",
+    "BIDSVersion": "1.10",
+    "HEDVersion": "8.3.0",
+    "Description": "This dataset contains in vivo electrophysiological recordings and simultaneous behavioral data from male mice in NWB (Neurodata Without Borders) format.   Recordings were obtained during a reward competition task.  See the publication for protocol details:  Padilla-Coreano, N., Batra, K., Patarino, M. et al. Cortical ensembles orchestrate social competition through hypothalamic outputs. Nature 603, 667\u2013671 (2022).  https://doi.org/10.1038/s41586-022-04507-5.   Electrophysiological neural recordings were taken in the medial prefrontal cortex (mPFC), mPFC projections to BLA, mPFC projections to LH.  The mPFC recordings contain \"ephys\" in filename; the mPFC to BLA contain \u201cBLA\u201d in file name, and mPFC to LH contain \u201cchrimson\u201d in the filename. Animals followed a consistent dye pattern across cages of 4 mice to identify them in behavioral videos.  Animal 1 was dyed on left side of body.  Animal 2 was dyed on right side of body.  Animal 3 was dyed with three horizontal stripes along body.  Animal 4 was dyed around the neck only.   Note that the animal id is different from animal social rank; please see subject description for social rank information. Raw behavioral videos are also included for the BLA and chrimson files.  Animal pose tracking was performed with AlphaTracker and required manual  correction of animal identities. Identity-corrected AlphaTracker pose estimates are included in this dataset.  Additionally, nine categories of  animal behavioral data, as described in Figure 1f of the reference paper, was hand scored for each trial from -2 s before tone onset to +12 seconds  after tone onset.  Note that there is an offset between the start of the neural recording and the start of the behavioral videos; this information  in contained in the video_gap variable in the behavioral events.  In the behavioral videos, the LED is on whenever the CS-tone is played and can be  used to verify the correct alignment between neural and behavioral data. Metadata includes approximate age, sex, species, strain, social rankings  of each animal and competitor (assessed with tube test), and port entries during reward competition task.  Not every subject in the dataset has  their competitor\u2019s session included; those that do are noted in the subject description.",
+    "DatasetType": "raw",
+    "Authors": [
+        "Keyes, Laurel",
+        "Padilla-Coreano, Nancy",
+        "Batra, Kanha",
+        "Patarino, Makenzie",
+        "Chen, Zexin",
+        "Rock, Rachel",
+        "Zhang, Ruihan",
+        "Hausmann, Sebastien B.",
+        "Weddington, Javier C.",
+        "Patel, Reesha",
+        "Zhang, Yu E.",
+        "Fang, Hao-Shu",
+        "Mishra, Srishti",
+        "LeDuke, Deryn O.",
+        "Revanna, Jasmin",
+        "Li, Hao",
+        "Borio, Matilde",
+        "Pamintuan, Rachelle",
+        "Bal, Aneesh",
+        "Libster, Avraham",
+        "Wichmann, Romy",
+        "Mills, Fergil",
+        "Taschbach, Felix H.",
+        "Matthews, Gillian A",
+        "Curley, James P.",
+        "Fiete, Ila R.",
+        "Lu, Cewu",
+        "Tye, Kay M."
+    ],
+    "License": "CC-BY-4.0",
+    "GeneratedBy": [
+        {
+            "Name": "nwb2bids",
+            "Version": "0.9.1.dev27+gf0fb7253c",
+            "Description": "Tool to reorganize NWB files into a BIDS directory layout.",
+            "CodeURL": "https://github.com/con/nwb2bids"
+        }
+    ]
+}
